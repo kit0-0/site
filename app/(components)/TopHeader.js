@@ -4,7 +4,7 @@ import { faEnvelopeOpen, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 const TopHeader = () => {
   return (
-    <div className="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
+    <div className="container-fluid bs-gray ps-5 pe-0 d-none d-lg-block">
       <div className="row gx-0">
         <div className="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
           <div className="d-inline-flex align-items-center">
@@ -15,7 +15,7 @@ const TopHeader = () => {
           </div>
         </div>
         <div className="col-md-6 text-center text-lg-end">
-          <div className="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+          <div className="position-relative d-inline-flex align-items-center bs-dark text-white top-shape px-5">
             <div className="me-3 pe-3 border-end py-2">
               <p className="m-0">
                 <FontAwesomeIcon icon={faEnvelopeOpen} className="me-2" /> hr@boosttech.in

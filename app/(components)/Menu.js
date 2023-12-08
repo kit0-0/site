@@ -36,7 +36,7 @@ const Menu = () => {
     <nav className={`navbar navbar-expand-lg ${isScrolled ? 'fixed-top' : ''} bg-white navbar-light shadow-sm px-5 py-3 py-lg-0`}>
       <Link href="/" style={{ textDecoration: 'none' }}>
         <div className="navbar-brand p-0">
-          <h1 className="m-0 text-uppercase1 text-primary">
+          <h1 className="m-0 text-uppercase1 txt-dark">
             <img className="w-40" src="/logo.png" alt="Image" />
             BoostTech
           </h1>

@@ -4,13 +4,13 @@ import { faUserTie, faChartLine, faBalanceScale } from '@fortawesome/free-solid-
 
 const About = () => {
   return (
-    <div className="container-fluid p-0" id="aboutus">
+    <div className="container-fluid p-0 bs-gray" id="aboutus">
       <div className="row g-0">
         <div className="col-lg-12 py-6 px-5">
           <h1 className="display-5 mb-4">
-            Welcome To <span className="text-primary">BoostTech</span>
+            Welcome To <span className="txt-dark">BoostTech</span>
           </h1>
-          <h4 className="text-primary mb-4">
+          <h4 className="txt-dark mb-4">
             Empowering your journey towards success through exceptional talent acquisition.
           </h4>
           <p className="mb-4">

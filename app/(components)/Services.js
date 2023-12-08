@@ -4,8 +4,8 @@ import { faUserTie, faChartPie, faChartLine, faChartArea, faBalanceScale, faHous
 
 const ServiceItem = ({ icon, title, description }) => (
   <div className="col-lg-4 col-md-6">
-    <div className="service-item bg-secondary text-center px-5">
-      <div className="d-flex align-items-center justify-content-center bg-primary text-white rounded-circle mx-auto mb-4" style={{ width: '90px', height: '90px' }}>
+    <div className="service-item text-center px-5">
+      <div className="d-flex align-items-center justify-content-center bs-dark text-white rounded-circle mx-auto mb-4" style={{ width: '90px', height: '90px' }}>
         <FontAwesomeIcon icon={icon} size="2x" />
       </div>
       <h3 className="mb-3">{title}</h3>

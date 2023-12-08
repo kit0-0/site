@@ -72,7 +72,6 @@ h6,
 
 .back-to-top {
     position: fixed;
-    display: none;
     right: 45px;
     bottom: 45px;
     z-index: 99;
@@ -87,6 +86,15 @@ h6,
     left: -17px;
     background: var(--primary);
     transform: skew(40deg);
+}
+.bs-dark{
+    background-color: #051f8d;
+} 
+.txt-dark{
+    color: #051f8d;
+}
+.bs-gray{
+    background-color: #EEEEEE;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -156,6 +164,7 @@ h6,
     justify-content: center;
     transition: .3s;
     text-align: justify;
+    background-color: #EEEEEE;
 }
 
 .service-item::after {
@@ -167,12 +176,12 @@ h6,
     left: 0;
     background: var(--light);
     border-radius: 100% 100% 0 0;
-    box-shadow: 0px -10px 5px #EEEEEE;
     transition: .5s;
 }
 
 .service-item:hover::after {
     bottom: -25px;
+    box-shadow: 0px -10px 5px #EEEEEE;
 }
 
 .service-item p {
@@ -267,5 +276,5 @@ h6,
 
 
 .bg-dark-bt{
-    background-color: #96989d !important;
+    background-color: #aaacb1 !important;
 }

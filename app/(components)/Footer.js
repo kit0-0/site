@@ -5,24 +5,24 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
   return (
     <>
-      <div className="container-fluid bg-dark-bt text-secondary p-5">
+      <div className="container-fluid bg-dark-bt text-white p-5">
         <div className="row g-5">
           <div className="col-lg-3 col-md-6">
             <h3 className="text-white mb-4">Quick Links</h3>
             <div className="d-flex flex-column justify-content-start">
-              <a className="text-secondary mb-2" href="#home">
+              <a className="text-white mb-2" href="#home">
                 <FontAwesomeIcon icon={faArrowRight} className="text-primary me-2" />
                 Home
               </a>
-              <a className="text-secondary mb-2" href="#aboutus">
+              <a className="text-white mb-2" href="#aboutus">
                 <FontAwesomeIcon icon={faArrowRight} className="text-primary me-2" />
                 About Us
               </a>
-              <a className="text-secondary mb-2" href="#services">
+              <a className="text-white mb-2" href="#services">
                 <FontAwesomeIcon icon={faArrowRight} className="text-primary me-2" />
                 Services
               </a>
-              <a className="text-secondary" href="#contactus">
+              <a className="text-white" href="#contactus">
                 <FontAwesomeIcon icon={faArrowRight} className="text-primary me-2" />
                 Contact Us
               </a>
@@ -58,8 +58,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid bg-dark text-secondary text-center border-top py-4 px-5" style={{ borderColor: 'rgba(256, 256, 256, .1) !important' }}>
-        <p className="m-0">&copy; <a className="text-secondary border-bottom" href="#">BoostTech</a>. All Rights Reserved. Designed by <a className="text-secondary border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
+      <div className="container-fluid bs-dark text-secondary text-center border-top py-4 px-5" >
+        <p className="m-0">&copy; <a className="text-white" href="#">BoostTech</a>. All Rights Reserved. Designed by <a className="text-white" href="https://htmlcodex.com">HTML Codex</a></p>
       </div>
     </>
   );
