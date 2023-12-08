@@ -1,5 +1,3 @@
-// components/Footer.js
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faEnvelopeOpen, faPhoneAlt, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
