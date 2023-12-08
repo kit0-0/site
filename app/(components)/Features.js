@@ -16,14 +16,14 @@ const Features = () => {
         <div className="col-lg-4">
           <div className="row g-5">
             <div className="col-12">
-              <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style={{ width: '60px', height: '60px' }}>
+              <div className="bs-dark rounded-circle d-flex align-items-center justify-content-center mb-3" style={{ width: '60px', height: '60px' }}>
                 <FontAwesomeIcon icon={faCubes} className="fs-4 text-white" />
               </div>
               <h3>Best In Industry</h3>
               <p className="mb-0">Unmatched excellence, industry's best. Unparalleled expertise, surpassing the rest.</p>
             </div>
             <div className="col-12">
-              <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style={{ width: '60px', height: '60px' }}>
+              <div className="bs-dark rounded-circle d-flex align-items-center justify-content-center mb-3" style={{ width: '60px', height: '60px' }}>
                 <FontAwesomeIcon icon={faPercent} className="fs-4 text-white" />
               </div>
               <h3>99% Success Rate</h3>
@@ -32,7 +32,7 @@ const Features = () => {
           </div>
         </div>
         <div className="col-lg-4">
-          <div className="d-block bg-primary h-100 text-center">
+          <div className="d-block bs-dark h-100 text-center">
             <img className="img-fluid" src="process.png" alt="" />
             <div className="p-4">
               <p className="text-white mb-4 text-justfy">
@@ -44,14 +44,14 @@ const Features = () => {
         <div className="col-lg-4">
           <div className="row g-5">
             <div className="col-12">
-              <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style={{ width: '60px', height: '60px' }}>
+              <div className="bs-dark rounded-circle d-flex align-items-center justify-content-center mb-3" style={{ width: '60px', height: '60px' }}>
                 <FontAwesomeIcon icon={faSmileBeam} className="fs-4 text-white" />
               </div>
               <h3>100% Happy Client</h3>
               <p className="mb-0">Our clients' happiness is our top priority, and we are proud to have a 100% satisfaction rate.</p>
             </div>
             <div className="col-12">
-              <div className="bg-primary rounded-circle d-flex align-items-center justify-content-center mb-3" style={{ width: '60px', height: '60px' }}>
+              <div className="bs-dark rounded-circle d-flex align-items-center justify-content-center mb-3" style={{ width: '60px', height: '60px' }}>
                 <FontAwesomeIcon icon={faUserTie} className="fs-4 text-white" />
               </div>
               <h3>Professional Advisors</h3>
