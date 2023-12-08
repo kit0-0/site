@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
-
 import HomeCarousel from "./(components)/HomeCarousel"
 import Services from "./(components)/Services"
 import TopHeader from './(components)/TopHeader';
@@ -9,6 +6,7 @@ import About from './(components)/About';
 import Features from './(components)/Features';
 import Contact from './(components)/Contact';
 import Footer from './(components)/Footer';
+import BackToTopButton from './(components)/BackToTopButton';
 export default function Home() {
   return (
     <div>
@@ -23,10 +21,7 @@ export default function Home() {
     <Contact />
 
     <Footer />
-    {/* Back to Top Button */}
-    <a href="#" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top">
-        <FontAwesomeIcon icon={faArrowUp} />
-      </a>
+    <BackToTopButton />
   </div>
   )
 }
