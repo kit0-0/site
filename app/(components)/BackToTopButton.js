@@ -37,7 +37,7 @@ const BackToTopButton = () => {
     <div>
       {isVisible && (
         <button
-          className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+          className="btn btn-lg border-0 btn-primary btn-lg-square rounded-circle back-to-top"
           onClick={scrollToTop}
         >
           <FontAwesomeIcon icon={faArrowUp} />

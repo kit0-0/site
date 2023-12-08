@@ -50,7 +50,7 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6">
             <h3 className="text-white mb-4">Follow Us</h3>
             <div className="d-flex">
-              <a className="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" target="_blank" href="https://www.linkedin.com/company/boosttech/">
+              <a className="btn btn-lg btn-primary border-0 btn-lg-square rounded-circle me-2" target="_blank" href="https://www.linkedin.com/company/boosttech/">
                 <FontAwesomeIcon icon={faLinkedinIn} className="fw-normal" />
               </a>
               {/* Add other social media links as needed */}
@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid bs-dark text-secondary text-center border-top py-4 px-5" >
+      <div className="container-fluid bg-dark text-secondary text-center border-top py-4 px-5" >
         <p className="m-0">&copy; <a className="text-white" href="#">BoostTech</a>. All Rights Reserved. Designed by <a className="text-white" href="https://htmlcodex.com">HTML Codex</a></p>
       </div>
     </>
