@@ -23,14 +23,8 @@
         "backgroundColor": "#ffffff"
       }
     },
-    
-      "scheme": "site",
-    
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "expo-router"
-    ]
+    }
   }
 }
